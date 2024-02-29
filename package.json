@@ -1,0 +1,37 @@
+{
+  "name": "base64-mime-type",
+  "version": "1.0.0",
+  "description": "Obtain the MIME type of a base64 encoded file",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc src/index.ts --noEmit",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "url",
+    "url": "https://github.com/BradyRyun/base64-mime-type.git"
+  },
+  "keywords": [
+    "MIME",
+    "base64",
+    "encoded"
+  ],
+  "author": "Brady Ryun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BradyRyun/base64-mime-type/issues"
+  },
+  "homepage": "https://github.com/BradyRyun/base64-mime-type#readme",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@tsconfig/node18": "^18.2.2",
+    "@types/jest": "^27.5.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}
